@@ -1,0 +1,9 @@
+<!ELEMENT friends (Self, friend1, friend2, friend3)>
+<!ELEMENT Self (id, name, age, major)>
+<!ELEMENT friend1 (id, name, age, major)>
+<!ELEMENT friend2 (id, name, age, major)>
+<!ELEMENT friend3 (id, name, age, major)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT major (#PCDATA)>

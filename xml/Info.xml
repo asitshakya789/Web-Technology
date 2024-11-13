@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE friends SYSTEM "student.dtd">
+<friends>
+    <Self>
+        <id>18</id>
+        <name>Asit kumar</name>
+        <age>20</age>
+        <major>Computer Science</major>
+    </Self>
+    <friend1>
+        <id>8</id>
+        <name>Akash mahato</name>
+        <age>21</age>
+        <major>Mathematics</major>
+    </friend1>
+    <friend2>
+        <id>61</id>
+        <name>Sonu prajapati</name>
+        <age>21</age>
+        <major>Physics</major>
+    </friend2>
+    <friend3>
+        <id>23</id>
+        <name>Dheeraj kumar</name>
+        <age>21</age>
+        <major>Chemistry</major>
+    </friend3>
+</friends>
+<!-- This specifies that the <major> element can contain parsed character data (text). -->

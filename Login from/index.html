@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="login-holder">
+        <h1 id="form-title">Login Page</h1>
+        <div id="login-error-msg" style="opacity: 0;">Invalid username and/or password</div>
+        <form id="login-form">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password (9 digits)" required minlength="9" maxlength="9">
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="#" id="toggle-form">Sign Up</a></p>
+    </main>
+
+    <main id="signup-holder" style="display: none;">
+        <h1 id="form-title">Sign Up</h1>
+        <form id="signup-form">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="date" name="dob" placeholder="Date of Birth" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="phone" placeholder="Phone Number" required>
+            <input type="password" name="password" placeholder="Password (9 digits)" required minlength="9" maxlength="9">
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="#" id="toggle-form-login">Login</a></p>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

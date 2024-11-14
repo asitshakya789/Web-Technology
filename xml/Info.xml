@@ -26,4 +26,5 @@
         <major>Chemistry</major>
     </friend3>
 </friends>
+
 <!-- This specifies that the <major> element can contain parsed character data (text). -->

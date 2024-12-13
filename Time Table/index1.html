@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 100%;
+            height: 100%;
+
+        }
+        table{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #blue{
+            background-color: blue;
+            color: #f2f2f2;
+
+        }
+        h1{
+            text-align: center;
+            padding-top: 22%;
+            padding-right: 8px;
+        }
+        th{
+            background-color: #4CAF50;
+        }
+        td{
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <h1>Weekly Timetable</h1>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+
+        </tr>
+        <tr>
+            <td>8:00-9:00</td>
+            <td>DAA</td>
+            <td>DA</td>
+            <td id="blue">LAB</td>
+            <td>WT</td>
+            <td id="blue">LAB</td>
+        </tr>
+        <tr>
+            <td>9:00-10:00</td>
+            <td>MLT</td>
+            <td id="blue" >LAB</td>
+            <td>DAA</td>
+            <td id="blue">LAB</td>
+            <td>COI</td>
+        </tr>
+        <tr>
+            <td>10:00-11:00</td>
+            <td>DAA</td>
+            <td>DA</td>
+            <td id="blue">LAB</td>
+            <td>WT</td>
+            <td id="blue">LAB</td>
+        </tr>
+        <tr>
+            <td>11:00-12:00</td>
+            <td>DAA</td>
+            <td>DA</td>
+            <td id="blue">LAB</td>
+            <td id="blue">LAB</td>
+            <td>COI</td>
+        </tr>
+        <tr>
+            <td>12:00-1:00</td>
+            <td colspan="5" id="yellow">Lunch Break</td>
+        </tr>
+        <tr>
+            <td>1:00-2:00</td>
+            <td>DAA</td>
+            <td>WT</td>
+            <td>MLT</td>
+            <td id="blue">LAB</td>
+            <td>COI</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

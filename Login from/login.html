@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 100%;
+            height: 100%;
+            padding: 0%;
+            margin: 0%;
+        }
+        #container{
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 3px solid black;
+            border-radius: 30px;
+
+        }
+        #form{
+            text-align: center;
+            height: 100%;
+            width: 100%;
+
+        }
+        #loginform{
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+        }
+        button{
+            background-color: #4CAF50;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+       <form action="login" id="form">
+        <h1>Login Form</h1>
+        <div id="loginform">
+            <lable for="userId">UserId</lable>
+            <input type="text" id="userId" name="userId" required-pattern="[A-Za-z]" title="Only String">
+        </div>
+        <div id="loginform">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" pattern-require="^[A-Z][a-zA-Z]{7}$"
+                title="Password must be at least 8 characters long and must start with a capital letter">
+        </div>
+        <button id="submit">Login</button>
+
+       </form>
+
+    </div>
+    
+</body>
+</html>

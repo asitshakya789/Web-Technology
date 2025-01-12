@@ -7,10 +7,10 @@
     <!ELEMENT name (#PCDATA)>
     <!ELEMENT age (#PCDATA)>
     <!ELEMENT major (#PCDATA)>
-]>
+    ]>
 <friends>
     <self>
-        <id>18</id>
+        <id>55</id>
         <name>Asit Kumar</name>
         <age>20</age>
         <major>Computer Science</major>
